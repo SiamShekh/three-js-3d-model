@@ -31,7 +31,7 @@ const App = () => {
     let men: THREE.Group<THREE.Object3DEventMap>;
     let anim: THREE.AnimationMixer;
     loader.load(
-      "/public/huggy_normal_with_anim.glb",
+      "/huggy_normal_with_anim.glb",
       (gltf) => {
         men = gltf.scene;
         men.position.y = -0.2;
